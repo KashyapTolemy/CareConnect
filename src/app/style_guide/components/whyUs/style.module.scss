@@ -1,0 +1,56 @@
+.whyChooseUsCard {
+    margin: 2rem;
+    padding: 2rem !important;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(4px);
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .whyChooseUsTitle {
+    font-size: 3rem;
+    font-weight: 600;
+    color: #166534;
+    margin-bottom: 2rem;
+  }
+  
+  .whyChooseUsGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    padding: 2rem;
+  }
+  
+  @media (min-width: 768px) {
+    .whyChooseUsGrid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  .groupTitle {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #15803d;
+    margin-bottom: 0.5rem;
+  }
+  
+  .benefitsList {
+    list-style-type: none;
+    padding: 0;
+    font-size: 1.25rem;
+    color: #166534;
+  }
+  
+  .benefitsList li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .benefitsList li::before {
+    content: '•';
+    color: #15803d;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
+  
+  

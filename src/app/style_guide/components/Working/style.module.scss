@@ -1,0 +1,40 @@
+* {
+    .working_container {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        .text_container {
+            height: 30vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 2rem;
+            backdrop-filter: blur(4px);
+            border-radius: 0.5rem;
+            padding: 1.5rem;
+            box-shadow: 0 4px 6px rgba(6, 105, 6, 0.1);;
+
+            .heading {
+                font-size: 3rem;
+                color: rgb(21, 128, 61);
+            }
+
+            .point {
+                font-size: 1.5rem;
+                color: rgb(5, 91, 65);
+
+                .icon {
+                    color: rgb(75, 255, 47);
+                    margin: 1rem;
+                }
+            }
+        }
+
+        .image {
+            height: 35vh;
+            border-radius: 0.5rem;
+        }
+    }
+}

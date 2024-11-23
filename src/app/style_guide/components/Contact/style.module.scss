@@ -1,0 +1,114 @@
+.footer {
+    background: rgba(22, 101, 52, 0.9) !important;
+    backdrop-filter: blur(8px);
+    color: white;
+    padding: 2rem 0;
+    font-size: 1rem;
+    .container {
+        background: inherit !important;
+        margin: 0 auto;
+        max-width: 1200px;
+        padding: 0 1rem;
+    }
+
+    &__grid {
+        background: inherit !important;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 2rem;
+    }
+
+    &__section {
+        background: inherit !important;
+
+        & p,
+        & h3 {
+            background: inherit !important;
+            margin-bottom: 1rem;
+        }
+    }
+
+    &__heading {
+        background: inherit !important;
+        font-size: 2rem;
+        font-weight: 600;
+        margin-bottom: 1rem;
+    }
+
+    &__list {
+        background: inherit !important;
+        list-style: none;
+        padding: 0;
+
+        & li {
+            background: inherit !important;
+            margin-bottom: 0.5rem;
+
+            & .footer__link {
+                color: white;
+                background: inherit !important;
+                text-decoration: none;
+                transition: color 0.3s;
+
+                &:hover {
+                    color: #81e6d9; // Light green hover
+                }
+            }
+        }
+    }
+
+    &__newsletter {
+        display: flex;
+        background: inherit !important;
+
+        &__input {
+            flex-grow: 1;
+            padding: 0.5rem;
+            border: none;
+            border-radius: 0.25rem 0 0 0.25rem;
+            outline: none;
+            color: #166534; // Green shade
+        }
+
+        &__button {
+            background: #2f855a;
+            color: white;
+            padding: 0.5rem 1rem;
+            border: none;
+            border-radius: 0 0.25rem 0.25rem 0;
+            cursor: pointer;
+            transition: background 0.3s;
+
+            &:hover {
+                background: #22543d; // Darker green
+            }
+        }
+    }
+
+    &__copyright {
+        background: inherit !important;
+        margin-top: 2rem;
+        text-align: center;
+
+        & p {
+            background: inherit !important;
+            font-size: 2rem;
+            font-weight: bold;
+            padding: 0.5rem;
+        }
+    }
+
+    .footer__button {
+        background: rgb(22, 163, 74) !important;
+        border-radius: 0.5rem;
+        font-size: 1.25rem;
+        padding: 0.2rem 0.3rem 0.2rem 0.3rem;
+        color: white;
+        // margin: 0.5rem;
+        transition: background 0.5s;
+
+        &:hover {
+            background: rgb(5, 91, 65) !important;
+        }
+    }
+}

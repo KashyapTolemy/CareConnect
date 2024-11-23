@@ -1,0 +1,58 @@
+* {
+
+    .join_container {
+        width: 100%;
+        height: 45vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+        .heading_para {
+            font-size: 4rem;
+            font-weight: bold;
+            color: rgb(5, 91, 65) ;
+            margin: 0.5rem;
+        }
+
+        .heading_para2 {
+            font-size: 2rem;
+            color: rgb(34, 135, 72);
+        }
+
+        .buttons {
+            display: flex;
+            margin: 2rem;
+
+            .senior_signin {
+                background: rgb(22, 163, 74) !important;
+                border-radius: 0.5rem;
+                font-size: 1.5rem;
+                padding: 0.4rem 0.6rem 0.4rem 0.6rem;
+                color: white;
+                margin: 0.5rem;
+                transition: background 0.5s;
+
+                &:hover {
+                    background: rgb(5, 91, 65) !important;
+                }
+            }
+
+            .volunteer_signin {
+                border: 0.1rem solid rgb(22, 163, 74);
+                border-radius: 0.5rem;
+                font-size: 1.5rem;
+                padding: 0.4rem 0.6rem 0.4rem 0.6rem;
+                margin: 0.5rem;
+                color: rgb(22, 163, 74);
+                transition: background 0.5s, color 0.5s, border 0.5s;
+
+                &:hover {
+                    background: rgb(22, 163, 74) !important;
+                    color: white;
+                    border: 0.1rem solid black;
+                }
+            }
+        }
+    }
+}
